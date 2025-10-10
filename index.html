@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inherit the Light - Men's Group | Colossians 1:11-12</title>
+    <meta name="description" content="A men's group giving joyous thanks to the Father who has qualified us to share in the inheritance of the saints in Light. Based on Colossians 1:11-12." />
+    <meta name="author" content="Inherit the Light" />
+    <link rel="canonical" href="https://inheritthelight.com" />
+    <meta property="og:title" content="Inherit the Light - Men's Group" />
+    <meta property="og:description" content="A men's group rooted in faith, gratitude, and brotherhood. Based on Colossians 1:11-12." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inheritthelight.com" />
+    <meta property="og:image" content="https://inheritthelight.com/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Inherit the Light - Men's Group" />
+    <meta name="twitter:description" content="A men's group rooted in faith, gratitude, and brotherhood. Based on Colossians 1:11-12." />
+    <meta name="twitter:image" content="https://inheritthelight.com/og-image.jpg" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Prosto+One&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: 'Prosto One', cursive;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 150px 2rem 100px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeInUp 1s ease 0.4s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 1rem;
+            color: #667eea;
+            font-family: 'Playfair Display', serif;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Inherit the Light</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#scripture">Scripture</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Inherit the Light</h1>
+        <p>A men's group rooted in faith, gratitude, and brotherhood</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+    <section id="about">
+        <h2>Our Mission</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">✝️</div>
+                <h3>Faith</h3>
+                <p>Strengthened with all power according to His glorious might, growing in our walk with Christ.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🙏</div>
+                <h3>Gratitude</h3>
+                <p>Giving joyous thanks to the Father who has qualified us to share in the inheritance of the saints.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3>Brotherhood</h3>
+                <p>Walking together in Light, supporting one another in our faith journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="scripture">
+        <h2>Our Foundation</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto; font-style: italic; font-size: 1.2rem; line-height: 1.8;">
+            "Being strengthened with all power according to his glorious might so that you may have great endurance and patience, 
+            and giving joyous thanks to the Father, who has qualified you to share in the inheritance of his holy people in the kingdom of light."
+        </p>
+        <p style="text-align: center; margin-top: 1rem; font-weight: 600; color: #667eea;">
+            — Colossians 1:11-12
+        </p>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2025 Inherit the Light. All rights reserved.</p>
+        <p>Contact: info@inheritthelight.com</p>
+    </footer>
+</body>
+</html>
